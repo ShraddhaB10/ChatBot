@@ -1,0 +1,60 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","bye bye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I am Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "date",
+    "patterns": ["what is the date", "can you tell me what day it is", "could you please tell me what day it is", "which day it is", "tell me the date please"],
+    "responses": ["Today's date is :", "Today is -","The date today is - "]
+    },
+    {"tag": "time",
+    "patterns": ["what is the time", "what time is it?", "what is the time by your watch?","could you please tell the time" ],
+    "responses": ["Time right now is - ", "It is - "]
+    },
+    {"tag": "open",
+     "patterns": ["can you please open notepad", "open whatsapp", "can you start spotify", "start this app"],
+     "responses": ["Opening the app", "Starting"]
+    },
+    {"tag": "joke",
+     "patterns": ["can you please tell me a joke", "tell me something funny", "can you tell a fun thing", "could you tell me something funny","tell me a joke, please"],
+     "responses": ["Here's a fun joke", "Want to know a funny joke, here it is -"]
+    } ,
+    {"tag": "screenshot",
+     "patterns": ["hey take a screenshot ", "capture screen", "can you capture the screen for me", "could you take a screenshot","capture the screen please"],
+     "responses": ["Screen captured", "Screenshot taken"]
+    },
+      {"tag": "send email",
+     "patterns": ["hey can you help me send a email ", "i want to send an email", "can you mail this for me", "could you send a mail","help me send an email"],
+     "responses": ["Give the following details", "For the email to be sent , enter following details:"]
+    },
+     {"tag": "weather",
+     "patterns": ["can you tell me the weather", "what is the weather today", "how is the weather","could you tell he the weather","How is the weather"],
+     "responses": [""]
+    },
+     {"tag": "cpu battery",
+     "patterns": ["what is the battery ", "Could you tell the cpu usage ", "could you tell the system battery","What is the cpu usage right now"],
+     "responses": [""]
+    }
+    
+]
+}
